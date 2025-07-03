@@ -10,12 +10,3 @@ const connectToMongoDB = async () => {
 };
 
 export default connectToMongoDB;
-
-// import mongoose from 'mongoose';
-
-// mongoose.connect('mongodb://127.0.0.1:27017/noteApp', {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true
-// })
-// .then(() => console.log("MongoDB connected"))
-// .catch(err => console.log("MongoDB error:", err));
